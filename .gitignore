@@ -1,0 +1,13 @@
+# Ignore everything by default.
+*
+
+# Allow Git to traverse directories so permitted files can be found.
+!*/
+
+# Track source notebooks, Python code, and Markdown documentation.
+!*.ipynb
+!*.py
+!*.md
+
+# Track this policy file.
+!.gitignore
